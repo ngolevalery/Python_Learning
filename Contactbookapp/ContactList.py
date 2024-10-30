@@ -8,11 +8,11 @@ print("Please select an option to continue...\n")
 contact_app_open = True
 
 while contact_app_open:
-    print("Enter 1 to Add a new contact...")
-    print("Enter 2 to View all contacts...")
-    print("Enter 3 to Edit a contact...")
-    print("Enter 4 to Delete a contact...")
-    print("Enter 0 to Exit program nowwwww...\n")
+    print("Enter 1 to Add a new contact...\n")
+    print("Enter 2 to View all contacts...\n")
+    print("Enter 3 to Edit a contact...\n")
+    print("Enter 4 to Delete a contact...\n")
+    print("Enter 0 to Exit program ...\n")
 
     #taking input from user
     action = input("What do you want to do? ")

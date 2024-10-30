@@ -4,7 +4,7 @@ contact_list = []
 
 
 #functions to write to csv.
-def update_csv(contactlist = "x"):
+def update_csv(contactlist):
     with open("contaclist.csv","w",newline="") as f:
         write = csv.writer(f, quoting=csv.QUOTE_ALL)
         for contact in contact_list:
