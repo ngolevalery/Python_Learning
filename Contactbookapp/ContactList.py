@@ -12,7 +12,7 @@ while contact_app_open:
     print("Enter 2 to View all contacts...")
     print("Enter 3 to Edit a contact...")
     print("Enter 4 to Delete a contact...")
-    print("Enter 0 to Exit program...\n")
+    print("Enter 0 to Exit program nowwwww...\n")
 
     #taking input from user
     action = input("What do you want to do? ")
