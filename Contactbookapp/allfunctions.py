@@ -6,9 +6,8 @@ contact_list = {}
 
 #functions to write to csv.
 def update_csv(csv_filename,contact_list):
-     with open("contactlist.csv", "w", newline="") as f:
+     with open("contactlist.csv", "a", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(['Name', 'Phone Number'])
         for name, phoneNumber in contact_list.items():
             writer.writerow([name,phoneNumber])
 
