@@ -2,28 +2,7 @@ import csv
 
 contact_list = {}
 
-name_pairs = {
-    'Alice': 'Bob',
-    'Charlie': 'Daisy',
-    'Eve': 'Frank',
-    'George': 'Hannah',
-    'Ivy': 'Jack'
-}
-
-# Write dictionary to CSV file
-# def save_dict_to_csv(filename, data):
-#     # Open the file in write mode initially to create headers
-#     with open(filename, mode='w', newline='') as file:
-#         writer = csv.writer(file)
-#         # Write header
-#         writer.writerow(['Name1', 'Name2'])
-#         # Write each key-value pair as a new row
-#         for name1, name2 in data.items():
-#             writer.writerow([name1, name2])
-
-# # Save the name_pairs dictionary to CSV
-# save_dict_to_csv('names.csv', name_pairs)
-
+#ALL FUNCTIONS
 
 #functions to write to csv.
 def update_csv(csv_filename,contact_list):
