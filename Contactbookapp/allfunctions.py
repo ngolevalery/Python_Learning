@@ -25,12 +25,18 @@ def add_contact(contact_name="x", phone_number="y"):
 
 
 # FUNCTION TO VIEW ALL CONTACTS
-def view_contacts():
-    print("----------Your Contacts---------")
-    print("NAME        PHONE NUMBER")
-    for key,value in contact_list.items():
-        print("---------------------------")
-        print(f"{key}:{value}")
+def view_contacts(contactlist):
+    import csv
+
+    contact_list = {}
+    with open(contactlist.csv, 'r') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            contact_name, phone_number = row
+            contact_list[contact_name] = phone_number
+    view_contacts("contactlist.csv")
+    print(contact_list)
+
 
 
 # FUNCTION TO EDIT CONTACTS

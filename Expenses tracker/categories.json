@@ -1,0 +1,21 @@
+{
+   "Food": [
+      {
+         "Item Name": "bread",
+         "Amount": 400.0,
+         "Date": "11/09/2024"
+      },
+      {
+         "Item Name": "Tea",
+         "Amount": 500.0,
+         "Date": "10/23/2024"
+      }
+   ],
+   "Neccesity": [
+      {
+         "Item Name": "House",
+         "Amount": 10000.0,
+         "Date": "22/12/2023"
+      }
+   ]
+}
